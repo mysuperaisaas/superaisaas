@@ -23,8 +23,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load configuration for GCP project
-PROJECT_ID = os.environ.get('GCP_PROJECT_ID', 'aisaas-project') #Temporary name for project
-BUCKET_NAME = os.environ.get('STORAGE_BUCKET', 'mysuperaisaas-core') #!!!!! Could also use the DEV bucket !!!!!!
+PROJECT_ID = os.environ.get('GCP_PROJECT_ID', 'aisaas-project') # Temporary name for project
+BUCKET_NAME = os.environ.get('STORAGE_BUCKET', 'mysuperaisaas-core') # !!!!! Could also use the DEV bucket !!!!!!
 MODEL_VERSION = '2.0.1'
 
 class FinancialAIEngine:
