@@ -1,6 +1,7 @@
 """
 GCP Configuration for MySuperAISaaS
 WARNING: This file should never contain credentials!
+Author : Robert Clark
 """
 
 import os
@@ -39,7 +40,7 @@ SERVICES = {
 ENDPOINTS = {
     'production': 'https://XXXXX.notyetdefined.com',
     'staging': 'https://staging-XXXXX.notyetdefined.com',
-    'development': 'http://localhost:8080'
+    'development': 'http://127.0.0.1:8080'
 }
 
 # Database Configuration for financial data
