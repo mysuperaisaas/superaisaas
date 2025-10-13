@@ -32,10 +32,10 @@ gcloud run deploy $SERVICE_NAME \
     --region $REGION \
     --platform managed \
     --allow-unauthenticated \
-    --memory 2Gi \
-    --cpu 2 \
-    --max-instances 100 \
-    --min-instances 2
+    --memory 4Gi \
+    --cpu 4 \
+    --max-instances 10 \
+    --min-instances 1
 
 # Deploy Cloud Functions
 echo "Deploying Cloud Functions..."
