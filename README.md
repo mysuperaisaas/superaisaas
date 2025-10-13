@@ -32,7 +32,7 @@ cp .env.example .env
 npm run dev
 ```
 
-@rclark23 I have added the service account key in case you require it for some testing to deploy cloud run functions, do not worry I encrypt it with a secure pwd : **MySuperAISaaS123**
+--> Deleting unsecure comments done by @Jonathan Lee
 
 ### 📋 Prerequisites
 
