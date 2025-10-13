@@ -6,7 +6,7 @@
 set -e
 
 PROJECT_ID="aisaas-project" #OR Within the second backup project : aisaas-secondary-project
-REGION="northamerica-northeast1"
+REGION="northamerica-northeast1" # We will potentially need to migrate in another zone for availability and redundancy requirements
 SERVICE_NAME="mysuperaisaas-api"
 
 echo "🚀 Starting deployment for MySuperAISaaS..."
