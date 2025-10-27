@@ -1,7 +1,9 @@
 # main.py
 """
+
 MySuperAISaaS: Main application file for the AI-powered financial analysis platform.
-This version introduces a config class, a v2 API endpoint, and improved caching.
+This version introduces a config class, a v3 API endpoint, and improved caching.
+
 """
 
 import os
